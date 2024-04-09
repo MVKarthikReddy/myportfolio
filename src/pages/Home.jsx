@@ -12,21 +12,26 @@ const Home = () => {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+            <Col md={7} className="home-header pt-5">
+              <h2 style={{ paddingBottom: 5 }} className="heading">
+                Hello!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
-              </h1>
+              </h2>
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Venkata Karthik Reddy Medagam</strong>
+                <strong className="main-name"> Karthik Reddy</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ paddingLeft: 50, textAlign: "left", fontSize:"11px"}}>
                 <Type />
+              </div>
+              <div style={{ paddingLeft: 50, textAlign: "left", fontSize:"20px"}} className='mt-5'>
+                
+                  Step into my digital realm! I'm motivated by the ambition to design captivating and flawless digital experiences. As a fervent <span className='text-primary fw-bolder'>full-stack</span> developer, I merge innovative technology with creative flair to transform ideas into reality.
+                
               </div>
             </Col>
 

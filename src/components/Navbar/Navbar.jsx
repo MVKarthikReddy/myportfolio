@@ -14,7 +14,7 @@ import {
 } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi"
 import { CgFileDocument } from "react-icons/cg";
-import { FaHireAHelper } from "react-icons/fa";
+import { FaHireAHelper,FaRegHandshake } from "react-icons/fa";
 
 
 
@@ -103,15 +103,16 @@ function NavBar() {
                 <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <div className="">
-                <a href="https://www.linkedin.com/in/karthik-reddy-medagam/" className="text-decoration-none"><FaHireAHelper className="text-primary"/> <span className="font-weight-bold">Hire me</span></a>
-              </div>
-            </Nav.Item>
+              <button className="m-2 text-center border mt-2 pl-2 pr-2 bg-white bg-opacity-25 rounded hover-zoom">
+                  <a href="https://www.linkedin.com/in/karthik-reddy-medagam/" className="text-decoration-none text-black"><FaRegHandshake className="text-primary text-black fw-bold" style={{ marginBottom: "2px" }}/> <span className="fw-bold">Hire Me</span></a>
+              </button>
+            
           </Nav>
+         
         </Navbar.Collapse>
+        
       </Container>
+      
     </Navbar>
   );
 }
