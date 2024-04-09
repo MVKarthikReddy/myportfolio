@@ -13,101 +13,28 @@ import { FaLinkedinIn } from "react-icons/fa";
 const About = () => {
     return (
         <Container fluid className="home-about-section" id="about">
-          <Container>
-            <Row>
-              <Col md={8} className="home-about-description">
-                <h1 style={{ fontSize: "2.6em" }}>
-                  LET ME <span className="yellow"> INTRODUCE </span> MYSELF
+          <Container className="container-fluid g-0">
+            <Row className="bg-white bg-opacity-10 rounded-4">
+              <Col md={12} className="p-5 d-flex flex-column justify-content-center">
+                <h1 style={{ fontSize: "2.6em" }} className="text-white">
+                  My Story
                 </h1>
-                <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Venkata Karthik Reddy Medagam </span>
-                 and I'm from <span className="yellow"> Andhra Pradesh, India.</span>
-                <br />
-                <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2024.
-                <br />
-                <br />
-                  As a
-                  <b className="yellow"> Full-Stack </b>developer,  
-                  I enjoy tackling new challenges and continuously expanding my skillset.
-                  <br />
-                  <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as Python, Java and query languages like
-                  <b className="yellow"> SQL and NoSQL.</b>
+                <div md={12} className="d-flex justify-content-center mt-3">
+                  <Tilt className="w-75">
+                    <img src={LaptopImg} className="img-fluid rounded-circle img-thumbnail w-25" alt="avatar" />
+                  </Tilt>
+                </div>
+                <div md={12} className="d-flex justify-content-center mt-4 text-white p-3 ">
+                  I'm a final year Computer Science student at Vasireddy Venkatadri Institute of Technology, where I have gained<br /> a solid foundation in various areas of computer science, including data structures and algorithms, object-oriented programming, operating systems, and computer networks.
+
+                  I'm always learning new things and looking for ways to stay on top of the latest tech and what's happening in the field.
+                  Beyond my studies, I've been building my skills as a web developer. I'm particularly interested in the MERN stack, which helps create user-friendly websites and powerful applications.
+                  My goal is to further enhance my skills and contribute to innovative projects that make a difference in the world. I am motivated and enthusiastic about computer science and engineering, and I value collaboration, creativity, and impact.
+
                   <br />
                   <br />
-                  I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
-                  <i>
-                    <b className="yellow">
-                      {" "}
-                      modern Javascript libraries and frameworks
-                    </b>
-                  </i>
-                  &nbsp; like
-                  <i>
-                    <b className="yellow"> React.js</b>
-                  </i>
-                  <br />
-                  <br />
-                  I am also interested in building new
-                  <i>
-                    <b className="yellow"> Web Technologies and Products, </b>
-                    as well as exploring areas related to
-                    <b className="yellow"> Artificial Intelligence.</b>
-                  </i>
-                  <br />
-                  
-                </p>
-              </Col>
-              <Col md={4} className="myAvtar">
-                <Tilt >
-                  <img src={LaptopImg} className="img-fluid rounded-5" alt="avatar" />
-                </Tilt>
-              </Col>
-            </Row>
-            <Row>
-              <Col md={12} className="home-about-social">
-                <h1>FIND ME ON</h1>
-                <ul className="home-about-social-links">
-                  <li className="social-icons">
-                    <a
-                      href="https://github.com/MVKarthikReddy/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="github"
-                    >
-                      <AiFillGithub />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.linkedin.com/in/karthik-reddy-medagam/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour  home-social-icons"
-                      aria-label="linkedin"
-                    >
-                      <FaLinkedinIn />
-                    </a>
-                  </li>
-                  <li className="social-icons">
-                    <a
-                      href="https://www.instagram.com/karthik__medagam/"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="icon-colour home-social-icons"
-                      aria-label="instagram"
-                    >
-                      <AiFillInstagram />
-                    </a>
-                  </li>
-                </ul>
-                <p>
-                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
-                </p>
+                  Apart from academics I love to draw pictures and listening to music.
+                </div>
                 
               </Col>
             </Row>

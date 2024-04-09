@@ -14,6 +14,8 @@ import {
 } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi"
 import { CgFileDocument } from "react-icons/cg";
+import { FaHireAHelper } from "react-icons/fa";
+
 
 
 function NavBar() {
@@ -102,16 +104,11 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/19sajib/portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item> */}
+            <Nav.Item className="fork-btn">
+              <div className="">
+                <a href="https://www.linkedin.com/in/karthik-reddy-medagam/" className="text-decoration-none"><FaHireAHelper className="text-primary"/> <span className="font-weight-bold">Hire me</span></a>
+              </div>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -4,7 +4,10 @@ import {
   AiFillGithub,
   AiFillInstagram
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { 
+  FaLinkedinIn,
+  FaTelegramPlane
+ } from "react-icons/fa";
 import './Social.css'
 
 const Social = () => {
@@ -46,6 +49,16 @@ const Social = () => {
                       className="icon-color contact-social-icons"
                     >
                       <AiFillInstagram />
+                    </a>
+                  </li>
+                  <li className="contact-icons">
+                    <a
+                      href="https://t.me/Karthik_Reddy_Medagam"
+                      className="icon-color contact-social-icons"
+                      target="_blank" 
+                      rel="noreferrer"
+                    >
+                      <FaTelegramPlane />
                     </a>
                   </li>
                 </ul>

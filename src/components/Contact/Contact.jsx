@@ -3,12 +3,22 @@ import emailjs from "@emailjs/browser";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import './Contact.css'
+import { ToastContainer, toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const Contact = () => {
     const form = useRef();
     const [done, setDone] = useState(false)
     const [notDone, setNotDone] = useState(false)
     const [formData, setFormData] = useState({});
+
+    const Notify = () => {
+      toast("Success")
+    }
+
+    const Notify1 = () => {
+      toast("Something went wrong")
+    }
 
     const handleChange = (e) => {
         setFormData({...formData, [e.target.name] : e.target.value})
@@ -27,18 +37,20 @@ const Contact = () => {
       
     emailjs
       .sendForm(
-        "service_niilndo",
-        "template_6z5idye",
+        "service_s0qvgws",
+        "template_otbhox6",
         form.current,
-        "VOBt6Akm1LhI5CZG-"
+        "c-0kdgOVoOZIJTPVa"
       )
       .then(
         (result) => {
           console.log(result.text);
-          setDone(true);
+          Notify()
+          // setDone(true);
         },
         (error) => {
           console.log(error.text);
+          Notify1()
         }
       );
     }
@@ -47,6 +59,8 @@ const Contact = () => {
 
     return(
         <Container style={{paddingTop: '50px'}} >
+                    <ToastContainer />
+
             <Row >
             <Col md={6} className="c-left" >
             <h1 >Get in Touch</h1>

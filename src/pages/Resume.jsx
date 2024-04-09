@@ -4,14 +4,14 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from '../components/Particleskill'
-import pdf from "../assets/sajib.pdf"
+import pdf from "../assets/Resume.pdf"
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://raw.githubusercontent.com/MVKarthikReddy/portfolio/main/src/assets/Resume.pdf`
+const resumeLink = `https://raw.githubusercontent.com/MVKarthikReddy/Resume/main/Resume.pdf`
 
 
 const Resume = () => {
