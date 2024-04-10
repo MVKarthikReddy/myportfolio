@@ -60,7 +60,7 @@ const Projects = () => {
               isBlog={false}
               title="Sign Language Recognition"
               description="This is a deep learning project aims to bridge communication gaps between the hearing impaired and normal persons. Sign language recognition utilizing MediaPipe with LSTM (Long Short-Term Memory) and GRU (Gated Recurrent Unit) models involves leveraging MediaPipe for hand gesture detection and then employing LSTM and GRU architectures to interpret these gestures."
-              ghLink="https://github.com/19sajib/mern-blog-app"
+              ghLink="https://github.com/MVKarthikReddy/"
             />
           </Col>
 
