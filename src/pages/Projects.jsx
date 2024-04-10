@@ -50,7 +50,7 @@ const Projects = () => {
               title="Farmers Bazaar"
               description="Welcome to Farmers Bazaar, an e-commerce platform built using the MERN stack for connecting local farmers with customers seeking fresh, high-quality produce. At Farmers Bazaar, we're passionate about supporting local agriculture and promoting sustainable food practices."
               ghLink="https://github.com/MVKarthikReddy/Farmers_Bazaar"
-              demoLink="https://github.com/MVKarthikReddy/Farmers_Bazaar"
+              demoLink="https://farmers-bazaar.vercel.app/"
             />
           </Col>
 
