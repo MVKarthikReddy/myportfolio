@@ -30,7 +30,7 @@ const Home = () => {
               </div>
               <div style={{ paddingLeft: 50, textAlign: "left", fontSize:"20px"}} className='mt-5'>
                 
-                  Step into my digital realm! I'm motivated by the ambition to design captivating and flawless digital experiences. As a fervent <span className='text-primary fw-bolder'>full-stack</span> developer, I merge innovative technology with creative flair to transform ideas into reality.
+                  🌐 Learning and exploring Full Stack Development through hands-on projects. 💡 Aspiring Software Development Engineer (SDE) in the making. 🚀 Building my development skills through one project at a time. 🔥A passionate competitive coder who loves problem-solving challenges.
                 
               </div>
             </Col>
